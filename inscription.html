@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>athletic blend - Find your footware</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="inscription.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="preload"
+      href="./assets/images/Logo de construction Moderne Bleu.png"
+      as="image"
+    />
+  </head>
+
+  <body id="top">
+    <header class="header" data-header>
+      <div class="container">
+        <div class="overlay" data-overlay></div>
+
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/Logo de construction Moderne Bleu.png"
+            width="160"
+            height="150"
+            alt="Footcap logo"
+          />
+        </a>
+
+        <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+
+        <nav class="navbar" data-navbar>
+          <button
+            class="nav-close-btn"
+            data-nav-close-btn
+            aria-label="Close Menu"
+          >
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <a href="#" class="logo">
+            <img
+              src="./assets/images/logo.svg"
+              width="190"
+              height="50"
+              alt="Footcap logo"
+            />
+          </a>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="index.html" class="navbar-link">Accueil</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">A propos</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Produits</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">magasin</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Blog</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Contact</a>
+            </li>
+            <li class="navbar-item">
+              <a href="inscription.html" class="navbar-link">inscription</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <form action="">
+      <h4>INSCRIPTION</h4>
+      <div class="nom">
+        <div>
+          <label>Nom</label>
+          <input type="text" />
+        </div>
+        <div>
+          <label>Prenom</label>
+          <input type="text" />
+        </div>
+      </div>
+      <label>Adresse mail</label>
+      <input type="email" />
+      <label>Mot de passe</label>
+      <input type="password" />
+      <input type="submit" value="S'inscrire" />
+      <p>Vous avez deja un compte ?<a href="#">Se connecter</a></p>
+    </form>
+  </body>
+</html>

@@ -72,8 +72,8 @@ li {
     list-style: none;
 }
 
-a {
-    text-decoration: none;
+.navbar a {
+    text-decoration: none ;
 }
 
 a,
@@ -86,25 +86,7 @@ ion-icon {
     display: block;
 }
 
-button,
-input {
-    font: inherit;
-    background: none;
-    border: none;
-}
 
-input {
-    width: 100%;
-}
-
-button {
-    cursor: pointer;
-}
-
-address {
-    font-style: normal;
-    line-height: 1.8;
-}
 
 html {
     font-family: var(--ff-josefin-sans);
